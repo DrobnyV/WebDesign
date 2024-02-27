@@ -34,18 +34,6 @@ body {
     height: 100vh;
 }
 
-#prvniText{
-    font-family: 'Josefin Sans';
-    font-size: 30px;
-}
-#druhyText{
-    font-family: 'Josefin Sans';
-    font-size: 37px;
-}
-#tretiText{
-    font-family: 'Josefin Sans';
-    font-size: 32px;
-}
 .footImage{
     width: 100px;
     height: 100px;
@@ -54,6 +42,10 @@ body {
 .footDivFlex{
 display: flex;
 align-items:center;
+}
+.footerText{
+    font-family: 'Josefin Sans';
+    font-size: 40px;
 }
 
 
