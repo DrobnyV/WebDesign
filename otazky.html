@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dobrůtky</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg" id = "navbar">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/lollipop.png" alt="lollipop" class="navImage">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Produkty</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakty</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="otazky.html">Otázky</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ms-auto" >
+            <a class="navbar-brand" href="#">
+                <img src="images/shopping-cart.png" alt="shopping-cart" class="navImage">
+            </a>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+
+<div class="d-flex flex-column">
+    <div class="otazka"><a id="otaznik">?</a> <a>Kdy mohu dobroty očekávat?</a></div>
+    <div class="odpoved"> <a id = "textOdpoved">Garantujeme dodání během 3–5 pracovních dnů.</a></div>
+    <div class="otazka"><a id="otaznik">?</a> <a>Máte stanovenou nějakou minimální hodnotu objednávky?</a></div>
+    <div class="odpoved"> <a id = "textOdpoved">Ano, u platby dobírkou, pak je minimální hodnota 100 Kč.</a></div>
+    <div class="otazka"><a id="otaznik">?</a> <a>Od jaké částky neplatím za dopravu?</a></div>
+    <div class="odpoved"> <a id = "textOdpoved">Pokud nakoupíte dobroty nad 1000 Kč, máte  dopravu zdarma.</a></div>
+    <div class="otazka"><a id="otaznik">?</a> <a>Jaké je číslo mé objednávky?<a></div>
+    <div class="odpoved"> <a id = "textOdpoved">Číslo vaší objednávky je uvedeno v potvrzovacím e-mailu.</a></div>
+</div>
+
+
+<footer class="text-center text-lg-start" id = "myFooter">
+    <div class="container-fluid">
+        <div class="row  footDivFlex">
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <div class="d-flex footDivFlex">
+                    <img src="images/store.png" alt="store" class="img-fluid me-3 footImage">
+                    <div>
+                        <p class="footerText">
+                            Obchody po celé České republice s možností osobního odběru ZDARMA
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <div class="d-flex footDivFlex">
+                    <img src="/images/sweets.png" alt="sweets" class="img-fluid me-3 footImage">
+                    <div>
+                        <p class="footerText">
+                            Dobroty z celého světa na jednom místě
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <div class="d-flex footDivFlex">
+                    <img src="/images/delivery-car.png" alt="car" class="img-fluid me-3 footImage">
+                    <div>
+                        <p class="footerText">
+                            Doprava pro každou objedvánku nad 1000 Kč zdarma
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

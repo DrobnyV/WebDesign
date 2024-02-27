@@ -5,16 +5,16 @@
 }
 
 .navbar-nav > li >a{
-   font-size: 40px;
+    font-size: 40px;
 }
 .navbar-nav > li{
     margin-left: 10px;
     margin-right: 10px;
- }
- .navImage{
-  
+}
+.navImage{
+
     width: 10vh;
- }
+}
 #mainDiv{
     background-color: rgb(63, 116, 249);
     height: 50%;
@@ -24,12 +24,12 @@
     height: 20%;
 }
 .footer {
-    background-color: #343a40; 
+    background-color: #343a40;
     color: white;
-    padding: 20px 0; 
+    padding: 20px 0;
     width: 100%;
     height: 20%;
-  }
+}
 body {
     height: 100vh;
 }
@@ -37,11 +37,11 @@ body {
 .footImage{
     width: 100px;
     height: 100px;
-    
+
 }
 .footDivFlex{
-display: flex;
-align-items:center;
+    display: flex;
+    align-items:center;
 }
 .footerText{
     font-family: 'Josefin Sans';
@@ -50,6 +50,40 @@ align-items:center;
 #myFooter{
     background-color: lightgrey;
 }
+.otazka{
+    background-color: #919699;
+    height: 150px;
+    color: rgb(250, 58, 154);
+    font-family: 'Itim';
+    font-size: 50px;
+    display: flex;
+    align-items: center;
 
+}
+.odpoved{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+#textOdpoved{
+    margin-left: 36.6px;
+    color: black;
+    font-family: 'Itim';
+}
+#otaznik{
+    font-size: 60px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 730px) {
+    .otazka{
+        font-size: 20px;
+        height: 80px;
+    }
+    .odpoved{
+        height: 80px;
+        font-size: 20px;
+    }
 
-
+}
