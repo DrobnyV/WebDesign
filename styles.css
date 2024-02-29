@@ -17,7 +17,24 @@
 }
 #mainDiv{
     background-color: rgb(63, 116, 249);
-    height: 50%;
+}
+#mainDivText{
+    font-family: 'Josefin Sans';
+    font-size: 60px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+#mainDivImage{
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+#mainImage{
+    width: 300px;
+    height: 300px;
 }
 #seconderyDiv{
     background-color: red;
