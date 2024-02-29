@@ -106,14 +106,24 @@ body {
     color: rgb(250, 58, 154);
     text-decoration: none;
 }
-#NutellaImg{
+.nabidkaImg{
 width: 220px;
 height: 220px;
 }
 .nabidkaDiv{
     align-items: center;
-    background-color: grey;
+    text-align: start;
+    background-color: rgb(171, 170, 170);
+    font-family: 'Josefin Sans';
+    font-size: 30px;
 }
+.nabidkaName {
+    width: 100%; 
+    background-color: rgb(104, 103, 103);
+}
+
+  
+ 
 .kontaktDiv{
     background-color:#919699;
     font-size: 40px;
