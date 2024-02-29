@@ -37,8 +37,18 @@
     height: 300px;
 }
 #seconderyDiv{
-    background-color: red;
-    height: 20%;
+    font-family: 'Josefin Sans';
+    font-size: 60px;
+    background-color: white;
+}
+.social{
+    text-decoration: none;
+    color: black;
+}
+.seconderyImageDiv{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
 }
 .footer {
     background-color: #343a40;
@@ -104,6 +114,12 @@ body {
     .odpoved{
         height: 80px;
         font-size: 20px;
+    }
+
+}
+@media only screen and (max-width: 1033px) {
+    .seconderyText{
+        display: none;
     }
 
 }
